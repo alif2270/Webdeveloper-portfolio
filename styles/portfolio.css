@@ -1,0 +1,144 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color:#FD6E0A ;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a {
+    text-decoration:none ;
+    font-size: 20px;
+}
+/* banner styles */
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-profile-picture{
+    width: 584px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.header{
+    background-image:url(../images/developer.png),url(../images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+.section-title{
+     font-size:35px;
+     font-weight: bold;
+     color: #181818;
+}
+.section-description{
+    font-size:18px ;
+    color: #757575;
+    background-repeat: no-repeat;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+}
+/* main styles  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+main-section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px  black;
+    text-align: left;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description,experience-subtitle{
+    color: #757575;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume{
+    text-align: left;
+}
